@@ -1,0 +1,84 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Helvetica';
+}
+
+
+
+/*Header*/
+.navbar{
+  border-radius: 0;
+}
+.navbar-default {
+    background-color: #2e2e2e;
+    border-color: #2e2e2e;
+}
+.navbar-default .navbar-brand a,.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+  color: #fff;
+}
+/*Content Section*/
+.row .title {
+  border: 1px solid black;
+  text-transform: uppercase;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0 20px;
+  display: inline-block;
+  text-align: center;
+}
+#Special .title {
+  background-color: #d5b864;
+}
+#Chicken .title {
+  background-color: #94a82f;
+}
+#Sushi .title {
+  background-color: #ac82bc;
+}
+#Beef .title {
+  background-color: #d5b864;
+}
+.row  > div {
+  margin: 10px auto;
+}
+.row  .content {
+  border: 1px solid black;
+  background-color: #d9d9d9;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  padding: 25px 10px 10px;
+  position: relative;
+}
+.bs-grid{
+  height:1000px;
+  background-color: #d9d9d9;
+}
+.back-to-top{
+  text-align: right
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  }
